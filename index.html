@@ -11,10 +11,18 @@
     <div class="container">
       <h1>HTML help</h1>
       <h2>Yaaaay for the Walrus!</h2>
+      <p><strong>Peek-a-boo</strong> is an ancient game riddled in mystery and deceipt. Thought it may appear to be an innocent children's pastime...</p>
 
       <p>This is a very special page. If you click somewhere, it will tell you what type of HTML element you clicked on.</p>
-      <p>Look at this cute walrus!</p>
-      <img src="img/walrus.jpg">
+      <p><span class="clickable">Click to see a cute walrus!</span></p>
+      <div id="walrus-hidden">
+      </div>
+
+      <div id="walrus-showing">
+        <p>In all his glory!</p>
+        <img src="img/walrus.jpg">
+      </div>
+
       <br/>
       <em>This does not have an event listener.</em>
       <ul>

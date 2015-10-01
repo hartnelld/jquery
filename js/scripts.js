@@ -3,8 +3,11 @@ $(function() {
     alert("This is a header.");
   });
 
-  $("p").click(function() {
-    alert("This is a paragraph.");
+  $(function() {
+    $(".clickable").click(function() {
+      $("#walrus-showing").toggle();
+      $("#walrus-hidden").toggle();
+    });
   });
 
   $("img").hover(function() {
